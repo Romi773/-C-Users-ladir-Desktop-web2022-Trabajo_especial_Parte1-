@@ -1,7 +1,14 @@
+
+
 /*comenzamos poniendo un color de fondo al body*/
 body{
     background-color: rgb(128,128,0);
 }
+
+
+
+/*   HEAD / NAV  */
+
 /*estamos en el header que tiene el div logo contiene la imagen y la marca, y la barra de navegación*/
 .logo{
     background-color: rgb(188,143,143);
@@ -33,7 +40,39 @@ nav{
 /*con esta propiedad cuando el mouse se coloca sobre la palabra se destaca en color violeta*/
 li:hover {
     background: rgb(238,130,238);
-  }
+}
+
+
+
+/* CAJAS CONTENEDORASS */
+
+/*ahora vamos a dar estilos al index , hay una reseña y una fotografía*/
+
+.caja_central_index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja_derecha_index{
+    width: 50%;
+    border-color: dashed rgb(0,0,0);
+}
+
+.caja_izquierda_index{
+    width: 50%;
+}
+
+
+
+/* CONTENT */
+
+h2 {
+    font-size: 2em;
+}
+
+
+
+/* FOOTER */
+
 footer{
     display: flex;
 }
@@ -47,15 +86,19 @@ footer{
     position: relative;
 }
 
-/*ahora vamos a dar estilos al index , hay una reseña y una fotografía*/
-.caja_central_index{
-    display: flex;
-    flex-wrap: wrap;
+
+
+/*estamos en el documento productos-nuestras joyas contiene una tabla e imágenes*/
+
+/* TABLA */
+
+table{
+    width: 100%;
+    
 }
-.caja_derecha_index{
-    width: 50%;
-    border-color:  dashed rgb(0,0,0);
-}
+
+/* IMAGENES */
+
 .imagen_anillo_antiguo{
     width: 40%;
     height: 15em;
@@ -64,14 +107,7 @@ footer{
     width: 45%;
     height: 25em;
 }
-.caja_izquierda_index{
-    width: 50%;
-}
-/*estamos en el documento productos-nuestras joyas contiene una tabla e imágenes*/
-table{
-    width: 100%;
-    
-}
+
 .foto_aros{
     width: 45%;
     height: 5em;
@@ -88,8 +124,4 @@ table{
 .foto_pulsera{
     width: 45%;
     height: 5em;
-}
-
-h2 {
-    font-size: 2em;
 }
