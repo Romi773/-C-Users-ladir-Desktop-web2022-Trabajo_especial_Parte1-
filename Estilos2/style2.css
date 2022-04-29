@@ -1,0 +1,95 @@
+/*comenzamos poniendo un color de fondo al body*/
+body{
+    background-color: rgb(128,128,0);
+}
+/*estamos en el header que tiene el div logo contiene la imagen y la marca, y la barra de navegación*/
+.logo{
+    background-color: rgb(188,143,143);
+}
+h1{
+    font-style: oblique;
+    font-family: cursive;
+}
+.diamante{
+    display: flex;
+    width: 10%;
+    height: 10em;
+}
+/*en el div nav están con clase item cada link del navegador*/
+nav{
+    display: flex;
+    padding-left: 0;
+}
+.barra_menu{
+    display: flex; 
+}
+.item{
+    list-style: none;
+    margin: 0.5%;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    padding: 2%;
+}
+/*con esta propiedad cuando el mouse se coloca sobre la palabra se destaca en color violeta*/
+li:hover {
+    background: rgb(238,130,238);
+  }
+footer{
+    display: flex;
+}
+.pie{
+    display: flex;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(85, 40, 128);
+}
+.invitacion_redes{
+    position: relative;
+}
+
+/*ahora vamos a dar estilos al index , hay una reseña y una fotografía*/
+.caja_central_index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja_derecha_index{
+    width: 50%;
+    border-color:  dashed rgb(0,0,0);
+}
+.imagen_anillo_antiguo{
+    width: 40%;
+    height: 15em;
+}
+.imagen_anillo_2{
+    width: 45%;
+    height: 25em;
+}
+.caja_izquierda_index{
+    width: 50%;
+}
+/*estamos en el documento productos-nuestras joyas contiene una tabla e imágenes*/
+table{
+    width: 100%;
+    
+}
+.foto_aros{
+    width: 45%;
+    height: 5em;
+}
+.foto_anillos{
+    width: 45%;
+    height: 15em;
+
+}
+.foto-collar{
+    width: 45%;
+    height: 5em;
+}
+.foto_pulsera{
+    width: 45%;
+    height: 5em;
+}
+
+h2 {
+    font-size: 2em;
+}
